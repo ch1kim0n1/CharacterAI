@@ -1,14 +1,14 @@
 import gtts
 import os
+from Input-Client import *
 
-# Get the user's input.
-user_input = input("What would you like me to say? ")
+precoded_text = Input-Client.gettext()
 
-# Convert the user's input to speech.
-tts = gtts.gTTS(user_input, lang="en-us-female")
+# Convert the precoded text to speech.
+tts = gtts.gTTS(precoded_text)
 
 # Save the converted audio in a file.
-tts.save("user_input.mp3")
+tts.save("precoded_input.mp3")
 
 # Play the converted audio.
-os.system("start user_input.mp3")
+os.system("start precoded_input.mp3")

@@ -1,8 +1,10 @@
 # CharacterAI
 
-This program will have several parts.
+List of things that AI will do
 
-1. it will give a 3d model of a waifu you want and there will be a chatbox
-2. The character will respond using ChatGPT or CharacterAI API
-3. Output of the bot will be converted into speech
-4. character will say the output and lips motion will be synced with output sound
+1. Generate a **3D model** of a waifu based on user preferences. Use of VTube Studio.
+2. Incorporate a **chatbox interface** for users to interact with the waifu character. (Talk with her)
+3. Utilize the** ChatGPT API**(Chai/Character.ai API later) to enable the character to respond to user inputs and engage in conversation.
+4. Convert the textual output of the AI bot into speech using the **text-to-speech software**.
+5. Enable the character to **audibly** articulate the generated response.
+6. Synchronize the **lip movements** of the character with the output sound to create a more realistic and immersive interaction.

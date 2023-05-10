@@ -8,3 +8,15 @@ List of things that AI will do
 4. Convert the textual output of the AI bot into speech using the **text-to-speech software**.
 5. Enable the character to **audibly** articulate the generated response.
 6. Synchronize the **lip movements** of the character with the output sound to create a more realistic and immersive interaction.
+
+
+
+
+# Potential Ideas/Features:
+1. Add section with questions for user for AI to remember (name, age, hobbies)
+2. make bot talk in more personal way than giving general answers
+3. AI could adapt to user's responces + feedback system
+4. recommendation system (movies, music, tv shows)
+5. ability to joke, flirt, and play games with the user
+6. Internet access
+7. personalized content (stories)

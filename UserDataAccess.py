@@ -1,6 +1,5 @@
 from UserPersonalData import *
 from __main__ import *
-import json
 
 # Get the user's data
 user_data = ""

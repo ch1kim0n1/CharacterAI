@@ -1,5 +1,6 @@
 import tkinter as tk
-import UserDataAccess
+import ResponseAI
+import subprocess
 
 # Define a class to store the data
 class User:
@@ -55,8 +56,9 @@ def senddata():
   #Print the user's data
   #print(user)
   
-  #pass the value to the UserDataAccess
-  UserDataAccess.getdata(user)
+  window.destroy()
+  ResponseAI.getdata(user)
+  #subprocess.run(["python", "ResponseAI.py"])
 
 
 # Create labels for each question
@@ -74,10 +76,6 @@ name_entry = tk.Entry()
 hobbies_entry = tk.Entry()
 fav_anime_entry = tk.Entry()
 personality_entry = tk.Entry()
-
-# Create a button to submit the answers
-#TODO NEED TO CHANGE LATER
-submit_button = tk.Button(text="Close window", command=exit)
 
 # Create a button to send data
 senddata_button = tk.Button(text="SendData", command=senddata)
@@ -99,7 +97,6 @@ fav_anime_label.pack()
 fav_anime_entry.pack()
 personality_label.pack()
 personality_entry.pack()
-submit_button.pack()
 senddata_button.pack()
 
 

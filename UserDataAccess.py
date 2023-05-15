@@ -1,3 +1,5 @@
+#MAY WORK AS A CENTRAL CLIENT, BUT NOW THIS CODE IS USELESS
+
 from UserPersonalData import *
 from __main__ import *
 

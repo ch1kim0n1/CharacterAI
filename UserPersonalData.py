@@ -58,6 +58,12 @@ def senddata():
   
   window.destroy()
   ResponseAI.getdata(user)
+  
+  with open("input.txt", "w") as f:
+    f.write("")
+    
+  with open("output.txt", "w") as f:
+    f.write("")
   #subprocess.run(["python", "ResponseAI.py"])
 
 

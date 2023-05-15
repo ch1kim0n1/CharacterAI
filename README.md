@@ -8,6 +8,22 @@
 6. Synchronize the **lip movements** of the character with the output sound to create a more realistic and immersive interaction.
 
 
+# How to run it (WITH 3D Model)
+
+1. Required additional instalations: VTube Studio, OBS, VTS Desctop Audio(plugin)
+2. Copy the resperatory anywhere locally
+3. Install all of the neccessary libraries via terminal
+4. In hidden.txt replace "API KEY HERE" with your OpenAI API Key
+5. Open up VTube Studio and OBS and set it up (Follow this tutorial here https://www.youtube.com/watch?v=1H6raBbl0QA&t=88s&ab_channel=KikyoB.University)
+6. Make the character from VTube studio hear the AI voice (Follow this tutorial here https://www.youtube.com/watch?v=IiZ0JrGd6BQ&t=357s&ab_channel=LuaLucky)
+7. Run the Runner class (UserPersonalData.py)
+
+# How to run it (WITHOUT 3D Model)
+1. Required additional instalations: NONE
+2. Copy the resperatory anywhere locally
+3. Install all of the neccessary libraries via terminal
+4. In hidden.txt replace "API KEY HERE" with your OpenAI API Key
+5. Run the Runner class (UserPersonalData.py)
 
 
 # Potential Ideas/Features:

@@ -34,3 +34,4 @@
 5. ability to joke, flirt, and play games with the user
 6. Internet access
 7. personalized content (stories)
+8. Use voice to input your chat message (WhisperAI) 
